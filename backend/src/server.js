@@ -13,8 +13,6 @@ import sessionRoutes from "./routes/sessionRoute.js";
 
 const app = express();
 
-const __dirname = path.resolve();
-
 // middleware
 app.use(express.json());
 // credentials:true meaning?? => server allows a browser to include cookies on request
